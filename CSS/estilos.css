@@ -1,0 +1,190 @@
+
+body{
+	body{
+        background-size: 100vw 100vh;
+        background-repeat: no-repeat;
+		margin: 0;
+		padding: 0;
+		height: 100%;
+		width: 100%;
+    }
+}
+.Fondo{
+	height: 100vh;
+	width: 100%;
+	background-image: url(./img/volquetaC.jpeg);
+	background-size: cover;
+	background-position: center;
+	transition: 10s;
+	
+	animation-name: animate ;
+	animation-direction: alternate-reverse;
+	animation-duration:20s ;
+	animation-fill-mode: forwards;
+	animation-iteration-count: infinite;
+	animation-play-state:running ;
+	animation-timing-function: ease-in-out;
+}
+@keyframes animate{
+	 25%{
+		background-image: url(./img/Trasporte.png);
+	 }
+	 50%{
+		background-image: url(./img/Excavadora.jpeg);
+	 }
+	 100%{
+		background-image: url(./img/img1.jpg);
+	 }
+}
+.header{
+	background-color: rgb(41, 41, 41);
+	width: 100%;
+	height: 100px;
+	top: 0;left: 0;
+}
+
+.container{
+	width: 90%;
+	max-width: 1200px;
+	margin: auto;
+}
+.container .Nombre{
+	float: left;
+	line-height: 100px;
+}
+.Nombre h1{
+	color: #fff;
+	font-weight: 400;
+	font-size: 22px;
+	margin-left: 10px;
+}
+.container .menu{
+	float: right;
+	line-height: 100px;
+}
+.container .menu a{
+	display: inline-block;
+	padding: 15px;
+	line-height: normal;
+	text-decoration: none;
+	color: #fff;
+	transition: all 0.3s ease;
+	border-bottom: 2px solid transparent;
+	font-size: 15px;
+	margin-right: 5px;
+}
+.container .menu a:hover{
+	border-bottom: 2px solid #c7c7c7;
+	padding-bottom: 5px;
+}
+.footer{
+	height: 60px;;
+	background-color: rgb(41, 41, 41);
+	color: white;
+}
+
+.Servicios{
+	display:inline-flex;
+}
+
+.Servicios .Servicio1{
+    width: 415px;
+	margin-right: 10px;
+    display: inline-block;
+    vertical-align: left;
+	text-align: justify;
+    background-color:rgb(179, 177, 177);
+	
+}
+.Servicios .Servicio2{
+    width: 415px;
+	margin-right: 10px;
+    display: inline-block;
+    vertical-align: center;
+	text-align: justify;
+    background-color:rgb(179, 177, 177);
+}
+.Servicios .Servicio3{
+    width: 400px;
+    display: inline-block;
+    vertical-align: right;
+	text-align: justify;
+    background-color:rgb(179, 177, 177);
+	border-image: fill;
+}
+
+.Nosotros{
+	background-color: #ffffff;
+	display:inline-flex;
+}
+.Nosotros .LDerecho {
+	width: 800px;
+    display: inline-block;
+    vertical-align:Right;
+    background-color:rgb(103, 99, 99);
+	text-align: justify;
+	
+}
+.Nosotros .lIzquierdo{
+	width: 400px;
+    display: inline-block;
+    vertical-align: left;
+	margin-right: 10px;
+    background-color:rgb(176, 170, 170);
+	text-align: justify;
+}
+
+.PROYECTOS{
+	background-color: #6c6b6b;
+}
+
+.proyectos1{
+	display: inline-flex;
+}
+.proyectos1 .proye1{
+	padding-left: 50px;
+	margin: 40px;
+	vertical-align: left;
+}
+.proyectos1 .proye2{
+	margin: 40px;
+	vertical-align: center;
+}
+.proyectos1 .proye3{
+	margin: 40px;
+	vertical-align: right;
+}
+
+.proyectos2{
+	display: flex;
+}
+.proyectos2 .pro1{
+	padding-left: 50px;
+	margin: 40px;
+	vertical-align: left;
+}
+.proyectos2 .pro2{
+	margin: 40px;
+	vertical-align: center;
+}
+.proyectos2 .pro3{
+	margin: 40px;
+	vertical-align: right;
+}
+
+.Contacto .ContactoEmpresa{
+	text-align: left;
+	font-size: 18px;
+}
+.Contacto{
+	background-color: #828080;
+}
+.audio{
+	background-color: #c0c0c0;
+}
+    
+
+
+
+
+	

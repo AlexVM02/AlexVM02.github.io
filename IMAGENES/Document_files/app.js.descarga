@@ -1,0 +1,24 @@
+/*alert("Hola mundo")
+var miVariable1 =5; //variable global con la palabra var 
+let miVariable2=4; //varible local con la palabra let 
+const miVarible= 0; //variable constante
+var cadena= "Hola"; // variable de tipo cadena
+var nombre="";
+var apellido="";
+var direccion="";*/
+
+//operadores 
+/*nombre= prompt("Ingrese su nombre");
+apellido= prompt("Ingrese su apellido");
+direccion= prompt("Ingrese su direccion");
+
+document.write("Su nombre es " + nombre );
+document.write("Su apellido es " + apellido );
+document.write("Su direccion es " + direccion );
+
+alert("Su nombre es "+ nombre +" Su apellido es "+ apellido +" Su direccion es "+ direccion);*/
+
+function dato(){
+    var numero = parseInt(document.getElementById("numero").value);
+    document.write(numero);
+}
